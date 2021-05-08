@@ -12,11 +12,11 @@
 
 int main(void) 
 {
-    unsigned char z;
+    unsigned char t;
     DDRB = 0xFF;                //PORTB is output
-    for(z=0;z<=255;z++)
+    for(t=0;t<=255;t++)
     {
-        PORTB = z;              
+        PORTB = t;              
         _delay_ms(100);
     }return 0;
 }
